@@ -9,7 +9,7 @@ export default defineConfig({
     emptyOutDir: true, // Clear the output directory before building
     rollupOptions: {
       input: {
-        main: '/index.html', // Use the root index.html as the entry point
+        main: 'src/App.jsx', // Use the root index.html as the entry point
       },
     },
   },
