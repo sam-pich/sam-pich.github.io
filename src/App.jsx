@@ -1,16 +1,20 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
 import "98.css";
-import windowsbg from "./assets/windowsbg.jpg";
+import "./App.css";
+
+import winbg from "./assets/windowsbg.jpg";
 import me from "./assets/sssss.gif";
 
 function App() {
   // change
 
   return (
-      <div className="bg-winbg min-h-screen">
+
+      <div style={{ backgroundImage: `url(${winbg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
+
+
           <head>
               <meta charset="UTF-8"/>
               <link rel="stylesheet" href={"https://unpkg.com/98.css"}/>
@@ -48,7 +52,7 @@ function App() {
           </div>
 
           <div className="window w-1/5 translate-x-[55vh] translate-y-[-4vh]">
-          <div className="title-bar">
+              <div className="title-bar">
                   <div className="title-bar-text">me.gif</div>
                   <div className="title-bar-controls">
                       <button aria-label="Minimize"></button>
@@ -62,7 +66,9 @@ function App() {
 
 
           </div>
+
       </div>
+
 
 
   );
