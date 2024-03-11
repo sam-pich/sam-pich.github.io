@@ -12,7 +12,7 @@ function App() {
 
   return (
 
-      <div style={{ backgroundImage: `url(${winbg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
+      <div id="root" style={{ backgroundImage: `url(${winbg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
 
 
           <head>

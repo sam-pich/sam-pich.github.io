@@ -7,10 +7,11 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Output directory for the build
     emptyOutDir: true, // Clear the output directory before building
-    rollupOptions: {
-      input: {
-        main: 'src/App.jsx', // Use the root index.html as the entry point
-      },
-    },
   },
+  root: './', // Add this line to specify the root directory
+  resolve: {
+    alias: {
+      '@': '/src' // Add this line to alias the 'src' directory
+    }
+  }
 })
