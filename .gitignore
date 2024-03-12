@@ -21,3 +21,4 @@ lerna-debug.log*
 *.sw?
 !/dist/assets/windowsbg-BXnE_cGI.jpg
 node_modules/.cache/gh-pages/https\!github.com\!sam-pich\!sam-pich.github.io.git/
+dist/assets/react-CHdo91hT.svg
