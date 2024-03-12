@@ -71,7 +71,7 @@ function Index() {
               </div>
           </div>
 
-          <div className="fixed z-2 window w-1/5 translate-x-[61.5vh] translate-y-[21vh]">
+          <div className="fixed z-2 window w-1/5 translate-x-[60.5vh] translate-y-[21vh]">
               <div className="title-bar">
                   <div className="title-bar-text">me.gif</div>
                   <div className="title-bar-controls">
@@ -85,7 +85,7 @@ function Index() {
               </div>
           </div>
 
-          <div className="fixed window w-[50vh] h-[25vh] translate-x-[8vh] translate-y-[55vh]">
+          <div className="fixed window w-[50vh] h-[25vh] translate-x-[7.8vh] translate-y-[55vh]">
               <div className="title-bar">
                   <div className="title-bar-text">Email</div>
                   <div className="title-bar-controls">
