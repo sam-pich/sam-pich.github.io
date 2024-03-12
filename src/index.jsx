@@ -2,12 +2,12 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "98.css";
-import "./App.css";
+import "./index.css";
 
 import winbg from "./assets/windowsbg.jpg";
 import me from "./assets/sssss.gif";
 
-function App() {
+function Index() {
   // change
 
   return (
@@ -74,4 +74,4 @@ function App() {
   );
 }
 
-export default App;
+export default Index;
