@@ -20,3 +20,4 @@ lerna-debug.log*
 *.sln
 *.sw?
 !/dist/assets/windowsbg-BXnE_cGI.jpg
+node_modules/.cache/gh-pages/https\!github.com\!sam-pich\!sam-pich.github.io.git/
