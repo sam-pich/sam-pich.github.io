@@ -37,7 +37,7 @@ function Index() {
 
 
           </>
-          <div className="z-0 fixed window w-[70vh] translate-x-[13vh] translate-y-[8vh]">
+          <div className="z-0 relative window w-2/5 translate-x-[13vh] translate-y-[8vh]">
               <div className="title-bar">
                   <div className="title-bar-text">Intro</div>
                   <div className="title-bar-controls">
@@ -52,40 +52,42 @@ function Index() {
                   <p className="text-xl">Skateboarder, videomaker, bookworm</p>
 
               </div>
-          </div>
 
-          <div className="fixed window w-1/4 h-[21vh] translate-x-[20vh] translate-y-[27.5vh]">
-              <div className="title-bar">
-                  <div className="title-bar-text"></div>
-                  <div className="title-bar-controls">
-                      <button aria-label="Minimize"></button>
-                      <button aria-label="Maximize"></button>
-                      <button aria-label="Close"></button>
+              <div className="z-3 absolute window w-[66%] translate-x-[3vb] translate-y-[0vb]">
+                  <div className="title-bar">
+                      <div className="title-bar-text"></div>
+                      <div className="title-bar-controls">
+                          <button aria-label="Minimize"></button>
+                          <button aria-label="Maximize"></button>
+                          <button aria-label="Close"></button>
+                      </div>
+                  </div>
+                  <div className="window-body font-bold">
+                      <p className="text-xl">Aspiring UX designer/product designer, I'll make anything and everything
+                          given
+                          the tools
+                          <br/><br/>Or at least <i>try</i> to</p>
                   </div>
               </div>
-              <div className="window-body font-bold text-3xl relative w-[45vh]">
-                  <p className="text-xl">Aspiring UX designer/product designer, I'll make anything and everything given
-                      the tools
-                      <br/><br/>Or at least <i>try</i> to</p>
 
-              </div>
-          </div>
-
-          <div className="fixed z-2 window w-1/5 translate-x-[60.5vh] translate-y-[21vh]">
-              <div className="title-bar">
-                  <div className="title-bar-text">me.gif</div>
-                  <div className="title-bar-controls">
-                      <button aria-label="Minimize"></button>
-                      <button aria-label="Maximize"></button>
-                      <button aria-label="Close"></button>
+              <div className="absolute z-4 window w-[40%] translate-x-[50vb] translate-y-[-7vb]">
+                  <div className="title-bar">
+                      <div className="title-bar-text">me.gif</div>
+                      <div className="title-bar-controls">
+                          <button aria-label="Minimize"></button>
+                          <button aria-label="Maximize"></button>
+                          <button aria-label="Close"></button>
+                      </div>
+                  </div>
+                  <div>
+                      <img src={me} alt="me"/>
                   </div>
               </div>
-              <div>
-                  <img src={me} alt="me"/>
-              </div>
+
           </div>
 
-          <div className="fixed window w-[50vh] h-[25vh] translate-x-[7.8vh] translate-y-[55vh]">
+
+          <div className="relative window w-[30%] h-[25vh] translate-x-[15vh] translate-y-[40vh]">
               <div className="title-bar">
                   <div className="title-bar-text">Email</div>
                   <div className="title-bar-controls">
@@ -95,12 +97,18 @@ function Index() {
                   </div>
               </div>
               <div className="window-body font-bold text-3xl spacing">
-                  <p className="text-xl">Say hi/Meet for coffee/Collab on ideas</p>
-                    <button className="z-0 w-3/4 h-[7vh] translate-x-[5.5vh] translate-y-[3.5vh]" href="mailto:sam.pich@outlook.com">Email me!</button>
+                  <p className="text-xl flex flex-col items-center ">Say hi/Meet for coffee/Collab on ideas</p>
+                  <div className="relative flex flex-col items-center ">
+                      <button className="absolute w-[40vb] h-[8vb] translate-y-[40%] text-2xl"
+                              href="mailto:sam.pich@outlook.com">Email me!
+                      </button>
+                      <div>
+                          <img className="z-1  absolute w-[10vh] translate-x-[-18vb] translate-y-[5.5vh]" src={mail}
+                               alt="mail"/>
+                      </div>
+                  </div>
               </div>
-              <div>
-                    <img className="z-1 w-[10vh] absolute translate-x-[8.5vh] translate-y-[-2.5vh]" src={mail} alt="mail"/>
-              </div>
+
           </div>
 
       </div>
