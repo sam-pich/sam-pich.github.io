@@ -39,7 +39,7 @@ function Index() {
                   </div>
               </div>
               <div className="window-body font-bold text-3xl">
-                  <p>Hey, I'm Sam Pich</p>
+                  <p>Hey! I'm Sam Pich</p>
                   <p className="text-2xl">CompSci/Digital Humanities student at University of Ottawa</p>
                   <p className="text-xl">Skateboarder, videomaker, bookworm</p>
 
