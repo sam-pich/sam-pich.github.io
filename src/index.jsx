@@ -13,6 +13,7 @@ function Index() {
 
 
           <head>
+              <link rel="icon" href="public/favicon.ico"/>
               <meta charset="UTF-8"/>
               <link rel="stylesheet" href={"https://unpkg.com/98.css"}/>
               <title>SAM PICH</title>
