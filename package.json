@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://sam-pich.github.io/sam-pich.github.io/",
   "scripts": {
-    "start": "react-scripts start src/App.jsx",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -32,5 +32,17 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
