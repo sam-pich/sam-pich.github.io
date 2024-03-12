@@ -53,7 +53,7 @@ function Index() {
 
               </div>
 
-              <div className="z-3 absolute window w-[66%] translate-x-[3vb] translate-y-[0vb]">
+              <div className="z-3 absolute window w-[66%] right-[17vb] translate-y-[0vb]">
                   <div className="title-bar">
                       <div className="title-bar-text"></div>
                       <div className="title-bar-controls">
@@ -70,7 +70,7 @@ function Index() {
                   </div>
               </div>
 
-              <div className="absolute z-4 window w-[40%] translate-x-[50vb] translate-y-[-7vb]">
+              <div className="absolute z-4 window w-[30vb] translate-x-[50vb] translate-y-[-7vb]">
                   <div className="title-bar">
                       <div className="title-bar-text">me.gif</div>
                       <div className="title-bar-controls">
@@ -99,12 +99,16 @@ function Index() {
               <div className="window-body font-bold text-3xl spacing">
                   <p className="text-xl flex flex-col items-center ">Say hi/Meet for coffee/Collab on ideas</p>
                   <div className="relative flex flex-col items-center ">
-                      <button className="absolute w-[40vb] h-[8vb] translate-y-[40%] text-2xl"
-                              href="mailto:sam.pich@outlook.com">Email me!
+                      <button className="absolute w-[40vb] h-[8vb] translate-y-[40%] text-2xl">
+                          <a className="inline-block relative z-1 py-[3vb] px-[14vb] m-[-2em]"
+                             href="mailto:sam.pich@outlook.com">
+                              <img className="z-1  absolute w-[10vb] translate-x-[-11.5vb]" src={mail}
+                                   alt="mail"/>
+                              Email me!</a>
+
                       </button>
                       <div>
-                          <img className="z-1  absolute w-[10vh] translate-x-[-18vb] translate-y-[5.5vh]" src={mail}
-                               alt="mail"/>
+
                       </div>
                   </div>
               </div>
