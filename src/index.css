@@ -873,6 +873,7 @@ menu[role=tablist] > li {
     border-top-right-radius: 3px;
     box-shadow: var(--border-tab);
     z-index: 1;
+    background-color: var(--button-face); /* Add this line */
 }
 
 menu[role=tablist] > li[aria-selected=true] {
