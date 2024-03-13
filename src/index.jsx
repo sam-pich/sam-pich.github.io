@@ -58,7 +58,7 @@ function Index() {
 
               </div>
 
-              <div className="absolute window-body w-auto left-[115vh] top-[4.5vh]">
+              <div className="absolute window-body w-auto left-[105vh] top-[4.5vh]">
                   <menu role="tablist">
                       <li role="tab" aria-selected={selectedTab === 'links'} onClick={handleTabClick} data-tab="links">
                           <a href="#tabs" className={"font-bold"}>Links</a>
@@ -145,24 +145,20 @@ function Index() {
                               <p className={"text-2xl "}>Super busy actually. This is your <br/>k-th
                                   student
                                   portfolio you're checking.</p>
-                              <p className={"text-2xl font-bold"}>You're sick of "modern" sites.</p>
-                              <p className={"text-2xl "}>I don't blame you. How could I? It's as if Dostoyevsky just
-                                  published Brothers Karamazov and all now everything is written in his prose. The worst
+                              <p className={"text-2xl font-bold"}>Modern is boring</p>
+                              <p className={"text-2xl "}>It's overdone. It's flat. It's as if Dostoyevsky just
+                                  published The Brothers Karamazov and all now everything's written in his prose. The worst
                                   part?</p>
                               <p className={"text-2xl font-bold italic"}>The stuff reads good.</p>
                               <p className={"text-2xl "}>Good. Not great. <br/>
-                                  In a bid to differentiate one from every other university student Git's get cloned.
-                                  Sites get pulled.
-                                  <br/><i>Portfolios get copied.</i></p>
-                              <p className={"text-2xl font-bold"}>This site looks unprofessional.</p>
+                                  Gets the job done. Lasting impression longer than a minute?
+                                  <br/><i>Not really.</i></p>
+                              <p className={"text-2xl font-bold"}>Different isn't always better.</p>
                               <p className={"text-2xl "}>
-                                  Definitely does. But you've stuck around long enough to accomplish the sites' goals.
-                                  You know my name, face, education, and <b>contact</b>.
-                                  Better yet, you know I have grit enough to create all of this in 36 hrs.
-                                  <br/>No previous knowledge beside "Hello World!" level html. Don't believe me?</p>
-                              <p className={"text-2xl font-bold"}>Check the <a href="https://github.com/sam-pich"
-                                                                               target="_blank"
-                                                                               rel="noopener noreferrer">GitHub :)</a> </p>
+                                  Definitely isn't. But you've stuck around long enough to accomplish the sites' goals.
+                                  You know my name, face, education, skills, and <b>contact</b>.
+                                  <br/></p>
+                              <p className={"text-2xl font-bold"}>Reach out :) </p>
 
 
                           </div>
@@ -185,7 +181,7 @@ function Index() {
                   <p className="text-base sm:text-xl italic">Skateboarder, videomaker, bookworm</p>
               </div>
 
-              <div className="z-3 absolute window w-full max-w-md right-0 sm:right-64 mt-4 sm:mt-0 translate-x-1/4">
+              <div className="z-3 absolute window w-3/4 max-w-1/2 right-0 sm:right-65 mt-4 sm:mt-[-1vb] translate-x-[-16vb]">
                   <div className="title-bar">
                       <div className="title-bar-text"></div>
                       <div className="title-bar-controls">
@@ -194,9 +190,28 @@ function Index() {
                           <button aria-label="Close"></button>
                       </div>
                   </div>
-                  <div className="window-body font-bold">
-                      <p className="text-base sm:text-xl">Aspiring UX designer/product designer, I'll make anything and
-                          everything given the tools<br/><br/>Or at least <i>try</i> to</p>
+                  <div className="window-body ">
+                      <p className="text-base sm:text-xl font-bold">Aspiring UX designer/product designer, I'll make
+                          anything and
+                          everything given the tools</p>
+                      <h2 className="text-base sm:text-2xl font-bold underline">Skills:</h2>
+                      <p className="text-base sm:text-l"><b>Programming Languages:</b> Java, Python, JavaScript, GoLang
+                      </p>
+                      <p className="text-base sm:text-l"><b>Web Development:</b> HTML/CSS, ReactJS, NodeJS, TailwindCSS,
+                          TypeScript, ViteJS
+                      </p>
+                      <p className="text-base sm:text-l"><b>Software Utilities:</b> Git, SQL, Firebase, MongoDB,
+                          PostgreSQL
+                      </p>
+                      <p className="text-base sm:text-l"><b>Object-Oriented Programming (OOP), Data Structures and
+                          Algorithms</b>
+                      </p>
+                      <p className="text-base sm:text-l"><b>Languages:</b> English, French, Mandarin
+                      </p>
+                      <p className="text-base sm:text-l"><b>Arts:</b> Photoshop, DaVinci Resolve, Adobe Premiere Pro
+                      </p>
+
+
                   </div>
               </div>
 
