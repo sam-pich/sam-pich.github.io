@@ -5,9 +5,14 @@ import winbg from "./assets/windowsbg.jpg";
 import me from "./assets/sssss.gif";
 import mail from "./assets/puter-mail.gif";
 import samresume from "./assets/Sam_Pich_Resume.pdf";
+import eye from "./assets/Eyec.gif";
+import puter from "./assets/puter-mail.gif";
+import mail36 from "./assets/mail36.gif";
+import birdmail from "./assets/palomail.gif";
+
 
 function Index() {
-    const [selectedTab, setSelectedTab] = useState('list');
+    const [selectedTab, setSelectedTab] = useState('links');
 
     const handleTabClick = (event) => {
         const selectedTabElement = event.currentTarget;
@@ -37,7 +42,6 @@ function Index() {
       }}>
 
 
-
           <head>
               <link rel="icon" href="public/favicon.ico"/>
               <meta charset="UTF-8"/>
@@ -54,10 +58,10 @@ function Index() {
 
               </div>
 
-              <div className="absolute window-body w-auto left-[97.5vh] top-[5.5vh]">
+              <div className="absolute window-body w-auto left-[105vh] top-[6.5vh]">
                   <menu role="tablist">
-                      <li role="tab" aria-selected={selectedTab === 'list'} onClick={handleTabClick} data-tab="list">
-                          <a href="#tabs" className={"font-bold"}>List</a>
+                      <li role="tab" aria-selected={selectedTab === 'links'} onClick={handleTabClick} data-tab="links">
+                          <a href="#tabs" className={"font-bold"}>Links</a>
                       </li>
                       <li role="tab" aria-selected={selectedTab === 'resume'} onClick={handleTabClick}
                           data-tab="resume">
@@ -71,9 +75,44 @@ function Index() {
                       </li>
                   </menu>
                   <div className="window w-auto h-auto" role="tabpanel">
-                      {selectedTab === 'list' && (
-                          <div key={selectedTab} id="list" className="window-body">
-                              <p>Desktop tab content</p>
+                      {selectedTab === 'links' && (
+                          <div key={selectedTab} id="list" className="window-body flex flex-col items-center">
+                              <p className="text-3xl font-bold mb-4">List of all my links:</p>
+                              <button className="w-[45vb] h-[8vb] text-2xl">
+                                  <a
+                                      className="inline-block relative z-1 w-full h-full flex items-center justify-center font-bold"
+                                      href="https://www.linkedin.com/in/sampich/"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                  >
+                                      <img className="absolute w-[5.5vb] left-[0vb]" src={mail36} alt="mail"/>
+                                      LinkedIn
+                                  </a>
+                              </button>
+
+                              <button className="w-[45vb] h-[8vb] text-2xl">
+                                  <a
+                                      className="inline-block relative z-1 w-full h-full flex items-center justify-center font-bold"
+                                      href="https://github.com/sam-pich"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                  >
+                                      <img className="absolute w-[5.5vb] left-[0vb]" src={eye} alt="mail"/>
+                                      GitHub
+                                  </a>
+                              </button>
+
+                              <button className="w-[45vb] h-[8vb] text-2xl">
+                                  <a
+                                      className="inline-block relative z-1 w-full h-full flex items-center justify-center font-bold"
+                                      href="mailto:sam.pich@outlook.com"
+                                      rel="noopener noreferrer"
+                                  >
+                                      <img className="absolute w-[3.8vb] left-[0vb] translate-y-[-0.5vb]" src={birdmail}
+                                           alt="mail"/>
+                                      sam.pich@outlook.com
+                                  </a>
+                              </button>
                           </div>
                       )}
                       {selectedTab === 'resume' && (
@@ -99,7 +138,7 @@ function Index() {
                   </div>
               </div>
           </>
-          <div className="z-0 relative window w-2/5 translate-x-[13vh] translate-y-[8vh]">
+          <div className="z-0 relative window w-full sm:w-2/5 max-w-49 mx-20 mt-16">
               <div className="title-bar">
                   <div className="title-bar-text">Intro</div>
                   <div className="title-bar-controls">
@@ -108,14 +147,13 @@ function Index() {
                       <button aria-label="Close"></button>
                   </div>
               </div>
-              <div className="window-body font-bold text-3xl">
-                  <p>Hey! I'm Sam Pich ------------------↓</p>
-                  <p className="text-2xl">CompSci/Digital Humanities student at University of Ottawa</p>
-                  <p className="text-xl">Skateboarder, videomaker, bookworm</p>
-
+              <div className="window-body font-bold text-xl sm:text-3xl">
+                  <p>Hey! I'm Sam Pich</p>
+                  <p className="text-lg sm:text-2xl">CompSci/Digital Humanities student at <br/>University of Ottawa</p>
+                  <p className="text-base sm:text-xl">Skateboarder, videomaker, bookworm</p>
               </div>
 
-              <div className="z-3 absolute window w-[66%] right-[17vb] translate-y-[0vb]">
+              <div className="z-3 absolute window w-full max-w-md right-0 sm:right-64 mt-4 sm:mt-0 translate-x-1/4">
                   <div className="title-bar">
                       <div className="title-bar-text"></div>
                       <div className="title-bar-controls">
@@ -125,14 +163,12 @@ function Index() {
                       </div>
                   </div>
                   <div className="window-body font-bold">
-                      <p className="text-xl">Aspiring UX designer/product designer, I'll make anything and everything
-                          given
-                          the tools
-                          <br/><br/>Or at least <i>try</i> to</p>
+                      <p className="text-base sm:text-xl">Aspiring UX designer/product designer, I'll make anything and
+                          everything given the tools<br/><br/>Or at least <i>try</i> to</p>
                   </div>
               </div>
 
-              <div className="absolute z-4 window w-[30vb] translate-x-[50vb] translate-y-[-7vb]">
+              <div className="absolute z-4 window w-40 sm:w-60 right-0 sm:right-15 -mt-8 sm:-mt-13.5 translate-x-1/3">
                   <div className="title-bar">
                       <div className="title-bar-text">me.gif</div>
                       <div className="title-bar-controls">
@@ -142,13 +178,13 @@ function Index() {
                       </div>
                   </div>
                   <div>
-                      <img src={me} alt="me"/>
+                      <img src={me} alt="me" className="w-full"/>
                   </div>
               </div>
           </div>
 
 
-          <div className="relative window w-[30%] h-[25vh] translate-x-[15vh] translate-y-[40vh]">
+          <div className="relative window w-[30%] h-[25vh] translate-x-[15vh] translate-y-[35vh]">
               <div className="title-bar">
                   <div className="title-bar-text">Email</div>
                   <div className="title-bar-controls">
@@ -173,12 +209,11 @@ function Index() {
           </div>
 
 
-
       </div>
 
 
-
-  );
+  )
+      ;
 }
 
 export default Index;
