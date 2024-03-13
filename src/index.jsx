@@ -58,7 +58,7 @@ function Index() {
 
               </div>
 
-              <div className="absolute window-body w-auto left-[115vh] top-[6.5vh]">
+              <div className="absolute window-body w-auto left-[115vh] top-[4.5vh]">
                   <menu role="tablist">
                       <li role="tab" aria-selected={selectedTab === 'links'} onClick={handleTabClick} data-tab="links">
                           <a href="#tabs" className={"font-bold"}>Links</a>
@@ -139,8 +139,32 @@ function Index() {
                           </div>
                       )}
                       {selectedTab === 'about' && (
-                          <div key={selectedTab} id="about" className="window-body">
-                              <p>Control panel tab content</p>
+                          <div key={selectedTab} id="about" className="window-body w-[60vh]">
+                              <h1 className={"text-6xl"}>What's up with these choices?</h1>
+                              <h2 className={"text-4xl underline"}>Suppose you're busy. </h2>
+                              <p className={"text-2xl "}>Super busy actually. This is your <br/>k-th
+                                  student
+                                  portfolio you're checking.</p>
+                              <p className={"text-2xl font-bold"}>You're sick of "modern" sites.</p>
+                              <p className={"text-2xl "}>I don't blame you. How could I? It's as if Dostoyevsky just
+                                  published Brothers Karamazov and all now everything is written in his prose. The worst
+                                  part?</p>
+                              <p className={"text-2xl font-bold italic"}>The stuff reads good.</p>
+                              <p className={"text-2xl "}>Good. Not great. <br/>
+                                  In a bid to differentiate one from every other university student Git's get cloned.
+                                  Sites get pulled.
+                                  <br/><i>Portfolios get copied.</i></p>
+                              <p className={"text-2xl font-bold"}>This site looks unprofessional.</p>
+                              <p className={"text-2xl "}>
+                                  Definitely does. But you've stuck around long enough to accomplish the sites' goals.
+                                  You know my name, face, education, and <b>contact</b>.
+                                  Better yet, you know I have grit enough to create all of this in 36 hrs.
+                                  <br/>No previous knowledge beside "Hello World!" level html. Don't believe me?</p>
+                              <p className={"text-2xl font-bold"}>Check the <a href="https://github.com/sam-pich"
+                                                                               target="_blank"
+                                                                               rel="noopener noreferrer">GitHub :)</a> </p>
+
+
                           </div>
                       )}
                   </div>
@@ -156,9 +180,9 @@ function Index() {
                   </div>
               </div>
               <div className="window-body font-bold text-xl sm:text-3xl">
-                  <p>Hey! I'm Sam Pich</p>
-                  <p className="text-lg sm:text-2xl">CompSci/Digital Humanities student at <br/>University of Ottawa</p>
-                  <p className="text-base sm:text-xl">Skateboarder, videomaker, bookworm</p>
+                  <h1 className={"text-6xl"}>Hey! I'm Sam Pich</h1>
+                  <h2 className="text-lg sm:text-4xl">CompSci/Digital Humanities student at <br/>University of Ottawa</h2>
+                  <p className="text-base sm:text-xl italic">Skateboarder, videomaker, bookworm</p>
               </div>
 
               <div className="z-3 absolute window w-full max-w-md right-0 sm:right-64 mt-4 sm:mt-0 translate-x-1/4">
