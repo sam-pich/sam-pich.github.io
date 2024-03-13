@@ -178,7 +178,7 @@ function Index() {
               <div className="window-body font-bold text-xl sm:text-3xl">
                   <h1 className={"text-6xl"}>Hey! I'm Sam Pich</h1>
                   <h2 className="text-lg sm:text-4xl">CompSci/Digital Humanities student at <br/>University of Ottawa</h2>
-                  <p className="text-base sm:text-xl italic">Skateboarder, videomaker, bookworm</p>
+                      <p className="text-base sm:text-xl italic">Skateboard, music, arts enthusiast</p>
               </div>
 
               <div className="z-3 absolute window w-3/4 max-w-1/2 right-0 sm:right-65 mt-4 sm:mt-[-1vb] translate-x-[-16vb]">
