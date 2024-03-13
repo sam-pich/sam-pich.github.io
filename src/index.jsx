@@ -231,31 +231,6 @@ function Index() {
           </div>
 
 
-          <div className="relative window w-[30%] h-[25vh] translate-x-[15vh] translate-y-[35vh]">
-              <div className="title-bar">
-                  <div className="title-bar-text">Email</div>
-                  <div className="title-bar-controls">
-                      <button aria-label="Minimize"></button>
-                      <button aria-label="Maximize"></button>
-                      <button aria-label="Close"></button>
-                  </div>
-              </div>
-              <div className="window-body font-bold text-3xl spacing">
-                  <p className="text-xl flex flex-col items-center ">Say hi/Meet for coffee/Collab on ideas</p>
-                  <div className="relative flex flex-col items-center ">
-                      <button className="absolute w-[40vb] h-[8vb] translate-y-[40%] text-2xl">
-                          <a className="inline-block relative z-1 py-[3vb] px-[14vb] m-[-2em]"
-                             href="mailto:sam.pich@outlook.com">
-                              <img className="z-1  absolute w-[10vb] translate-x-[-11.5vb]" src={mail}
-                                   alt="mail"/>
-                              Email me!</a>
-                      </button>
-
-                  </div>
-              </div>
-          </div>
-
-
       </div>
 
 
