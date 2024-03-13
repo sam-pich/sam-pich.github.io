@@ -126,8 +126,16 @@ function Index() {
                           </div>
                       )}
                       {selectedTab === 'video' && (
-                          <div key={selectedTab} id="video" className="window-body">
-                              <p>My computer tab content</p>
+                          <div key={selectedTab} id="video" className="window-body w-[650px] h-[800px]">
+                              <div style={{ position: 'relative', paddingTop: '61.75%', paddingBottom: '61.75%'  }}>
+                                  <iframe
+                                      src="https://fast.wistia.net/embed/iframe/c4a58up24n"
+                                      allow="autoplay; fullscreen"
+                                      style={{ position: 'absolute', top: 0, width: '100%', height: '100%' }}
+                                  ></iframe>
+                              </div>
+                              <script src="https://fast.wistia.com/embed/medias/c4a58up24n.jsonp" async></script>
+                              <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
                           </div>
                       )}
                       {selectedTab === 'about' && (
