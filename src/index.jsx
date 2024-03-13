@@ -215,7 +215,7 @@ function Index() {
                   </div>
               </div>
 
-              <div className="absolute z-4 window w-40 sm:w-60 right-0 sm:right-15 -mt-8 sm:-mt-13.5 translate-x-1/3">
+              <div className="absolute z-4 window w-40 sm:w-60 right-0 sm:right-15 -mt-8 sm:-mt-13.5 translate-x-[40%]">
                   <div className="title-bar">
                       <div className="title-bar-text">me.gif</div>
                       <div className="title-bar-controls">
