@@ -58,7 +58,7 @@ function Index() {
 
               </div>
 
-              <div className="absolute window-body w-auto left-[105vh] top-[6.5vh]">
+              <div className="absolute window-body w-auto left-[115vh] top-[6.5vh]">
                   <menu role="tablist">
                       <li role="tab" aria-selected={selectedTab === 'links'} onClick={handleTabClick} data-tab="links">
                           <a href="#tabs" className={"font-bold"}>Links</a>
