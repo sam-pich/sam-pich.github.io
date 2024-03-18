@@ -159,7 +159,7 @@ function Index() {
                               <p className={"text-2xl "}>This is your k-th student portfolio you're checking.</p>
                               <p className={"text-2xl font-bold"}>Modern is boring</p>
                               <p className={"text-2xl "}>It's overdone. It's flat. It's as if Dostoyevsky just
-                                  published The Brothers Karamazov and all now everything's written in his prose. The worst
+                                  published The Brothers Karamazov and now everything's written in his prose. The worst
                                   part?</p>
                               <p className={"text-2xl font-bold italic"}>The stuff reads good.</p>
                               <p className={"text-2xl "}>Good. Gets the job done.<br/>
