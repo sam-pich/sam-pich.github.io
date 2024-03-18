@@ -164,8 +164,8 @@ function Index() {
                                   published The Brothers Karamazov and all now everything's written in his prose. The worst
                                   part?</p>
                               <p className={"text-2xl font-bold italic"}>The stuff reads good.</p>
-                              <p className={"text-2xl "}>Good. Not great. <br/>
-                                  Gets the job done. However, straying away from minimalist trends
+                              <p className={"text-2xl "}>Good. Gets the job done.<br/>
+                                   However, straying away from minimalist trends
                                   <br/><i>I want more impact</i></p>
                               <p className={"text-2xl font-bold"}>Different isn't always better.</p>
                               <p className={"text-2xl "}>
