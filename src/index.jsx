@@ -156,7 +156,7 @@ function Index() {
                           <div key={selectedTab} id="about" className="window-body w-[60vh]">
                               <h1 className={"text-6xl"}>What's up with these choices?</h1>
                               <h2 className={"text-4xl underline"}>Suppose you're busy. </h2>
-                              <p className={"text-2xl "}>Super busy actually. This is your <br/>k-th
+                              <p className={"text-2xl "}>This is your <br/>k-th
                                   student
                                   portfolio you're checking.</p>
                               <p className={"text-2xl font-bold"}>Modern is boring</p>
@@ -165,8 +165,8 @@ function Index() {
                                   part?</p>
                               <p className={"text-2xl font-bold italic"}>The stuff reads good.</p>
                               <p className={"text-2xl "}>Good. Not great. <br/>
-                                  Gets the job done. With a lasting impression?
-                                  <br/><i>Not really.</i></p>
+                                  Gets the job done. However, straying away from minimalist trends
+                                  <br/><i>I want more impact</i></p>
                               <p className={"text-2xl font-bold"}>Different isn't always better.</p>
                               <p className={"text-2xl "}>
                                   Definitely isn't. But you've stuck around long enough to accomplish the sites' goals.
@@ -222,7 +222,7 @@ function Index() {
                       </p>
                       <p className="text-base sm:text-l"><b>Languages:</b> English, French, Mandarin
                       </p>
-                      <p className="text-base sm:text-l"><b>Arts:</b> Photoshop, DaVinci Resolve, Adobe Premiere Pro
+                      <p className="text-base sm:text-l"><b>Arts:</b> Photoshop, DaVinci Resolve, Adobe Premiere Pro, Adobe Lightroom
                       </p>
 
 
