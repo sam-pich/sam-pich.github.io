@@ -155,8 +155,6 @@ function Index() {
                       {selectedTab === 'about' && (
                           <div key={selectedTab} id="about" className="window-body w-[60vh]">
                               <h1 className={"text-6xl"}>What's up with these choices?</h1>
-                              <h2 className={"text-4xl underline"}>You're busy.</h2>
-                              <p className={"text-2xl "}>This is your millionth student portfolio you're checking.</p>
                               <p className={"text-2xl font-bold"}>Modern is plain</p>
                               <p className={"text-2xl "}>It's as if Dostoyevsky just
                                   published The Brothers Karamazov and now everything's written in his prose. The worst
