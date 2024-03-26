@@ -159,7 +159,7 @@ function Index() {
                               <p className={"text-2xl "}>Stuck on the past? Or reflecting on "has been" good times.
                               </p>
                               <p className={"text-2xl font-bold italic"}>Regardless</p>
-                              <p className={"text-2xl "}>As modern design strips in your face details for subtletiesq, its nice to revisit the past.
+                              <p className={"text-2xl "}>As modern design strips in your face details for subtleties, its nice to revisit the past.
                               </p>
                               <p className={"text-2xl font-bold"}>Everything's details</p>
                               <p className={"text-2xl "}>
