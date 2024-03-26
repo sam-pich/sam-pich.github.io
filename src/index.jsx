@@ -155,17 +155,16 @@ function Index() {
                       {selectedTab === 'about' && (
                           <div key={selectedTab} id="about" className="window-body w-[60vh]">
                               <h1 className={"text-6xl"}>What's up with these choices?</h1>
-                              <p className={"text-2xl font-bold"}>Modern is plain</p>
-                              <p className={"text-2xl "}>It's as if Dostoyevsky just
-                                  published The Brothers Karamazov and now everything's written in his prose. The worst
-                                  part?</p>
-                              <p className={"text-2xl font-bold italic"}>The stuff reads good.</p>
-                              <p className={"text-2xl "}>Good. Gets the job done.<br/>
-                                   However, straying away from minimalist trends
-                                  <br/><i>I want more impact</i></p>
-                              <p className={"text-2xl font-bold"}>Different isn't always better.</p>
+                              <p className={"text-2xl font-bold"}>Nostalgia</p>
+                              <p className={"text-2xl "}>Stuck on the past? Or reflecting on "has been" good times.
+                              </p>
+                              <p className={"text-2xl font-bold italic"}>Regardless</p>
+                              <p className={"text-2xl "}>As modern design strips in your face details for subtletiesq, its nice to revisit the past.
+                              </p>
+                              <p className={"text-2xl font-bold"}>Everything's details</p>
                               <p className={"text-2xl "}>
-                                  Definitely isn't. But you've stuck around long enough to accomplish the sites' goals.
+                                  Placement, font, font <i>size</i>, landing page, direction, word choice, etc. <br/>
+                                  Modern or not, each style has details. Details that make the difference. <b>Details I can design.</b><br/>
                                   You know my name, face, education, skills, and <b>contact</b>.
                                   <br/></p>
                               <p className={"text-2xl font-bold"}>Reach out :) </p>
