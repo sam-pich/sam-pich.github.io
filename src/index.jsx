@@ -45,18 +45,12 @@ function Index() {
           <head>
               <link rel="icon" href="public/favicon.ico"/>
               <meta charset="UTF-8"/>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
               <link rel="stylesheet" href={"https://unpkg.com/98.css"}/>
               <title>SAM PICH</title>
 
           </head>
           <>
-              <div className="title-bar  w-full">
-                  <div className="title-bar-text">Windowception</div>
-                  <div className={"title-bar-controls"}>
-                      <button aria-label="Help"></button>
-                  </div>
-
-              </div>
 
               <div className="absolute window-body w-auto left-[105vh] top-[4.5vh]">
                   <menu role="tablist">
@@ -186,8 +180,8 @@ function Index() {
               </div>
               <div className="window-body font-bold text-xl sm:text-3xl">
                   <h1 className={"text-6xl"}>Hey! I'm Sam Pich</h1>
-                  <h2 className="text-lg sm:text-4xl">CompSci/Digital Humanities student at <br/>University of Ottawa</h2>
-                      <p className="text-base sm:text-xl italic">Skateboard, music, arts enthusiast</p>
+                  <h2 className="text-lg sm:text-4xl">CompSci/Psychology student at <br/>University of Ottawa</h2>
+                      <p className="text-base sm:text-xl italic">I'm currently redesigning this site COMPLETELY with proper design fundamentals to make it more aesthetic, accessible, and responsive.</p>
               </div>
 
               <div className="z-3 absolute window w-3/4 max-w-1/2 right-0 sm:right-65 mt-4 sm:mt-[-1vb] translate-x-[-16vb]">
